@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MongoDB\MongoDB.csproj" />
+    <ProjectReference Include="..\Pastebin.DataAccess\Pastebin.DataAccess.csproj" />
+    <ProjectReference Include="..\Pastebin.IDataAccess\Pastebin.DataAccessContract.csproj" />
+    <ProjectReference Include="..\Pastebin.ServiceContract\Pastebin.ServiceContract.csproj" />
+    <ProjectReference Include="..\Pastebin.Service\Pastebin.Service.csproj" />
+  </ItemGroup>
+
+</Project>

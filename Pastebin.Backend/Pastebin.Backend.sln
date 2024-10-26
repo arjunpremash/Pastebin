@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35013.160
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pastebin.Backend", "Pastebin.Backend\Pastebin.Backend.csproj", "{B7E0F76F-117D-41C8-9ABD-0E18BB0D8E77}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MongoDB", "MongoDB\MongoDB.csproj", "{F9D1F7D3-530C-4635-BA29-B4F451C95DA1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pastebin.DataAccess", "Pastebin.DataAccess\Pastebin.DataAccess.csproj", "{C22A2F13-9297-4A3C-8853-B8C23F013632}"
+	ProjectSection(ProjectDependencies) = postProject
+		{C62582F5-0AE2-43D0-B5AB-2AB1DB5F0C38} = {C62582F5-0AE2-43D0-B5AB-2AB1DB5F0C38}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pastebin.DataAccessContract", "Pastebin.IDataAccess\Pastebin.DataAccessContract.csproj", "{C62582F5-0AE2-43D0-B5AB-2AB1DB5F0C38}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pastebin.Service", "Pastebin.Service\Pastebin.Service.csproj", "{6C61A157-5332-463C-8EF4-EFC134BA8469}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pastebin.ServiceContract", "Pastebin.ServiceContract\Pastebin.ServiceContract.csproj", "{FA2DD205-3B9B-4DF3-AEA1-6DC62C03C5F3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B7E0F76F-117D-41C8-9ABD-0E18BB0D8E77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7E0F76F-117D-41C8-9ABD-0E18BB0D8E77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7E0F76F-117D-41C8-9ABD-0E18BB0D8E77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7E0F76F-117D-41C8-9ABD-0E18BB0D8E77}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9D1F7D3-530C-4635-BA29-B4F451C95DA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9D1F7D3-530C-4635-BA29-B4F451C95DA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9D1F7D3-530C-4635-BA29-B4F451C95DA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9D1F7D3-530C-4635-BA29-B4F451C95DA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C22A2F13-9297-4A3C-8853-B8C23F013632}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C22A2F13-9297-4A3C-8853-B8C23F013632}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C22A2F13-9297-4A3C-8853-B8C23F013632}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C22A2F13-9297-4A3C-8853-B8C23F013632}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C62582F5-0AE2-43D0-B5AB-2AB1DB5F0C38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C62582F5-0AE2-43D0-B5AB-2AB1DB5F0C38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C62582F5-0AE2-43D0-B5AB-2AB1DB5F0C38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C62582F5-0AE2-43D0-B5AB-2AB1DB5F0C38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C61A157-5332-463C-8EF4-EFC134BA8469}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C61A157-5332-463C-8EF4-EFC134BA8469}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C61A157-5332-463C-8EF4-EFC134BA8469}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C61A157-5332-463C-8EF4-EFC134BA8469}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA2DD205-3B9B-4DF3-AEA1-6DC62C03C5F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA2DD205-3B9B-4DF3-AEA1-6DC62C03C5F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA2DD205-3B9B-4DF3-AEA1-6DC62C03C5F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA2DD205-3B9B-4DF3-AEA1-6DC62C03C5F3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {18E0501C-A761-433F-975F-61317F016EE8}
+	EndGlobalSection
+EndGlobal
